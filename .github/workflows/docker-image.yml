@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "build/rmf" ]
+    branches: [ "split-simulation/build/rmf" ]
   pull_request:
-    branches: [ "build/rmf" ]
+    branches: [ "split-simulation/build/rmf" ]
 
 jobs:
   build:

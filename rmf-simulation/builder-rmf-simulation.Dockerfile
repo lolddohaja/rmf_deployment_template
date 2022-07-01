@@ -2,7 +2,7 @@ FROM ghcr.io/open-rmf/rmf_deployment_template/builder-rosdep-simulation
 
 ARG NETRC
 
-COPY rmf/rmf.repos /root
+COPY rmf-simulation/rmf-simulation.repos /root
 
 SHELL ["bash", "-c"]
 
