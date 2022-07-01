@@ -109,14 +109,6 @@ jobs:
           # push: true
           tags: ghcr.io/open-rmf/rmf_deployment_template/rmf-lift-supervisor:latest
       -
-        name: Build rmf-mock-docker
-        uses: docker/build-push-action@v3
-        with:
-          context: .
-          file: rmf/rmf-mock-docker.Dockerfile
-          # push: true
-          tags: ghcr.io/open-rmf/rmf_deployment_template/rmf-mock-docker:latest
-      -
         name: Build rmf-robot-state-aggregator
         uses: docker/build-push-action@v3
         with:
