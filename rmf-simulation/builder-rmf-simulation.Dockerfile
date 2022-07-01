@@ -12,7 +12,7 @@ RUN apt update
 RUN mkdir -p /opt/rmf/src
 WORKDIR /opt/rmf
 RUN echo ${NETRC} > /root/.netrc
-RUN vcs import src < /root/rmf.repos
+RUN vcs import src < /root/rmf-simulation.repos
 
 RUN rosdep update --rosdistro $ROS_DISTRO
 RUN rosdep install --from-paths src --ignore-src --rosdistro $ROS_DISTRO \
