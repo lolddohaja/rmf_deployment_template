@@ -7,7 +7,7 @@ on:
     branches: [ "build/rmf-site", "build/rmf", "main" ]
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     ##############################################################
     ## Configurations
     ##############################################################
