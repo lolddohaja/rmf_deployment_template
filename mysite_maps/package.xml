@@ -3,7 +3,7 @@
 <package format="3">
   <name>mysite_maps</name>
   <version>0.0.0</version>
-  <description>Various CTF Maps</description>
+  <description>Example rmf-site maps</description>
   <maintainer email="cnboonhan@openrobotics.org">Boon Han</maintainer>
   <license>Apache License 2.0</license>
 
