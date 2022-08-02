@@ -1,10 +1,10 @@
-name: Docker Image CI
+name: rmf-site-ci
 
 on:
   push:
-    branches: [ "build/rmf-site", "build/rmf" ]
+    branches: [ "build/rmf-site" ]
   pull_request:
-    branches: [ "build/rmf-site", "build/rmf" ]
+    branches: [ "build/rmf-site" ]
 jobs:
   build:
     runs-on: ubuntu-latest
