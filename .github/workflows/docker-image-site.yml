@@ -39,5 +39,5 @@ jobs:
           file: rmf-site/rmf-site.Dockerfile
           build-args: |
             BUILDER_NS=${{ env.builder_ns }}
-          # push: true # TODO
+          push: true
           tags: ${{ env.builder_ns }}/rmf-site:latest
