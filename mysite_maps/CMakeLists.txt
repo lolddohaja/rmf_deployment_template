@@ -14,7 +14,9 @@ ament_package()
 file(GLOB_RECURSE traffic_editor_paths "maps/*.building.yaml")
 
 foreach(path ${traffic_editor_paths})
+  ## Note: we are not generating rmf building files related to simulation.
   set(map_path ${path})
+  set(output_dir ${CMAKE_CURRENT_BINARY_DIR}/maps/${output_world_name})
   
   ##############################################################################
   # Generate the nav graphs
